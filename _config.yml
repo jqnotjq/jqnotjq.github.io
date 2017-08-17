@@ -1,0 +1,21 @@
+# Site settings
+title: Adventures In Learning To Code Online
+header-img: img/home-bg.png
+email: jqnotjq@gmail.com
+copyright_name: jqnotjq
+description: > # this means to ignore newlines until "baseurl:"
+  May the curly braces be ever in your favor
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: jqnotjq
+github_username:  jqnotjq
+learn_profile: jqnotjq
+email_username: jqnotjq@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
